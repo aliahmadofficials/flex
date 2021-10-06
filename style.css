@@ -6,114 +6,123 @@ body{
 	padding: 0px;
 }
 
-/*
-.container{
-	display: flex;
-	flex-wrap: wrap;
-	background: skyblue;
-	width: auto;
-	height: 100vh;   
-}
+/*-----------------------------------HEADER---------------------------------------*/
 
 .nav{
-	background: white;
-	width: 100%;
-	height: 70px;
-	padding-left: 20px;
-	padding-right: 20px;
+	background: #1F2937;
+    width: auto;
+	margin: 0px;
+	padding: 0% 5% 0%;
 	display: flex;
-	align-content: center;
-	justify-content: flex-end;
 }
 
-a{
-	font-family: Poppins;
-	font-size: 16px;
-	text-decoration: none;
-	padding: 20px;
-}
-
-a:hover{
-	background: orange;
-	color: white;
-}
-
-
-*/
-
-.container2{
-	background: skyblue;
-	width: auto;
-	height: 100vh;
+.inner-section1{
+	box-sizing: border-box;
+	width: 20%;
+	padding: 0px;
+	margin: 0px;
 	display: flex;
-	flex-wrap: wrap;
-}
-.nav2{
-	display: flex;
-	background: black;
-	width: 100%;
-	height:	 70px;
-	padding: 0px 20px 0px;
+	justify-content: flex-start;
 	align-items: center;
+}
+
+.logo{
+	margin: 0px;
+	color: white;
+}
+
+.inner-section2{
+	box-sizing: border-box;
+	width: 80%;
+	padding: 0px;
+	display: flex;
 	justify-content: flex-end;
 }
 
-ul li{
-	list-style: none;
-	display: inline-block;
+ul{
+	list-style-type: none;
 }
 
-ul li a{
+li{
+	display: inline-block;
+	
+}
+
+li a{
 	font-family: Poppins;
 	font-size: 16px;
 	text-decoration: none;
 	color: white;
+	display: block;
 	padding: 10px 20px;
-	border-radius: 5px;
 }
 
-ul li a:hover{
-	background: orange;
+li a:hover{
+	background: blue;
+}
+
+/*-----------------------------------HERO SECTION---------------------------------------*/
+
+.hero-section{
+	background: #1F2937;
+    width: auto;
+	height: 500px;
+	margin: 0px;
+	padding: 5% 5% 5%;
+	display: flex;
+	box-sizing: border-box;
+}
+
+.left-section{
+	background: green;
+	box-sizing: border-box;
+	width: 50%;
+	height: 100%;
+/*	
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column; */
+}
+
+.hero-heading{
+	font: normal 700 48px Poppins;
+	line-height: 58px;
+	text-transform: capitalize;
+	color: white;
+	margin: 0px;
+	width: 100%;
+}
+
+.hero-para{
+	font: normal 300 17px Poppins;
+	line-height: 28px;
+	text-transform: normal;
+	color: white;
+	margin: 10px 0 0 0;
+}
+
+.hero-btn a{
+	font: normal 400 17px Poppins;
+	text-decoration: none;
+	color: white;
+	padding: 15px 20px;
+	background: blue;
 }
 
 
+.right-section{
+	background: red;
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+img{
+	width: 100%;
+}
 
 
 
