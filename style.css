@@ -136,6 +136,9 @@ li a:hover{
 /*-----------------------------------HERO SECTION END---------------------------------------*/
 
 
+
+
+
 /*-----------------------------------SERVICES SECTION START---------------------------------------*/
 
 
@@ -190,6 +193,69 @@ li a:hover{
 
 
 /*-----------------------------------SERVICES SECTION END---------------------------------------*/
+
+
+
+
+
+
+/*-----------------------------------TESTIMONOIAL SECTION START--------------------------*/
+
+.testimonial{
+	background: #f5f5f5;
+	width: 100%;
+	height: 50vh;	
+	padding: 0% 19%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.testimonial q{
+	font-size: 35px;
+	line-height: 45px;
+}
+
+.testimonial p{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: blue;
+	margin-top: 20px;
+	text-align: end;
+}
+
+/*-----------------------------------TESTIMONOIAL SECTION END------------------------*/
+
+
+
+
+
+/*-----------------------------------CALL TO ACTION SECTION START-------------*/
+
+
+/*-----------------------------------CALL TO ACTION SECTION START-------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
